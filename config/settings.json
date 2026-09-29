@@ -1,0 +1,11 @@
+{
+  "api_endpoint": "https://api.example.com/daily-metrics",
+  "csv_input_path": "./data/raw/sales.csv",
+  "pdf_output_path": "./data/output/daily_report.pdf",
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender": "your_email@gmail.com",
+    "recipients": ["manager@company.com", "analyst@company.com"]
+  }
+}
